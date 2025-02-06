@@ -36,15 +36,16 @@
         </div>
     </nav>
     <section id="profile">
-        <div class="section_pic-container">
+        <div class="section__pic-container">
             <img src="./assets/SamJohnPic.png" alt="Sam Johnson Profile">
         </div>
 
         <div class="section__text">
-            <p class="section_text_p1">Hello, I'm</p>
+            <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Sam Johnson</h1>
-            <p class="section_text_p2">Enter Words</p>
-            <div class="bnt-container">
+            <p class="section__text__p2">Computer Science Major
+            </p>
+            <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/SJohnsonResume.pdf')">Download CV</button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
             </div>
@@ -54,12 +55,18 @@
 
             </div>
         </div>
+        <img src="./assets/arrow.png" 
+          alt="Arrow icon"   
+          class="icon arrow" 
+          onclick="location.href='./#about'"/>
+
+
     </section>
     <section id="about">
-        <p class="section_text_p1">Get to Know More</p>
+        <p class="section__text__p1">Get to Know More</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
-            <div class="section_pic-container">
+            <div class="section__pic-container">
                 <img src="./assets/SamJohn2.jpg" 
                     alt="Profile picture" 
                     class="about-pic"
@@ -72,7 +79,7 @@
                              alt="Experience icon" 
                              class="icon">
                         <h2>Experience</h2>
-                        <p>fill with <br> stuff</p>
+                        <p>Entry-Level <br> Software Engineering</p>
                     </div>
                     <div class="details-container">
                         <img src="./assets/experience.png" 
@@ -83,7 +90,17 @@
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis perspiciatis ut magnam pariatur quis saepe nobis, illo ullam minus delectus cupiditate nostrum atque vitae. Dolorum praesentium sint repellat nobis minima error porro culpa mollitia nostrum quod. Deserunt quam laborum nobis, dolore, impedit distinctio beatae nemo ipsam esse et odit officia!</p>
+                    <p>I’m Sam Johnson, a Computer Science student at Winthrop University 
+                      with a minor in Mathematics. I have experience in software development,
+                       computer vision, and web design, working with languages like Python, 
+                       Java, C++, and JavaScript. I’ve built projects such as an object detection 
+                       system for drones and a mathematical model for population dynamics, 
+                       as well as contributed to a scholarship application portal to 
+                       streamline processes. I enjoy solving problems through code and 
+                       am always looking to grow my skills. My future goal is to achieve a 
+                       Masters Degree in Cybersecurity. Outside of tech, I like exploring new 
+                       tools and staying involved in the computing community. 
+                       Please contact me with any oppurtunities!</p>
                 </div>
             </div>
         </div>
@@ -98,7 +115,7 @@
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Programming</h2>
             <div class="article-container">
               <article>
                 <img
@@ -108,7 +125,6 @@
                 />
                 <div>
                   <h3>HTML</h3>
-                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -119,7 +135,6 @@
                 />
                 <div>
                   <h3>CSS</h3>
-                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -129,8 +144,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
+                  <h3>Java</h3>
                 </div>
               </article>
               <article>
@@ -141,7 +155,6 @@
                 />
                 <div>
                   <h3>JavaScript</h3>
-                  <p>Basic</p>
                 </div>
               </article>
               <article>
@@ -151,8 +164,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
+                  <h3>C++</h3>
                 </div>
               </article>
               <article>
@@ -162,14 +174,13 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
+                  <h3>Python</h3>
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Tools/Technologies</h2>
             <div class="article-container">
               <article>
                 <img
@@ -178,8 +189,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
+                  <h3>Linux/Unix</h3>
                 </div>
               </article>
               <article>
@@ -189,8 +199,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
+                  <h3>Microsoft Products</h3>
                 </div>
               </article>
               <article>
@@ -200,8 +209,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
+                  <h3>Microcontrollers</h3>
                 </div>
               </article>
               <article>
@@ -212,7 +220,6 @@
                 />
                 <div>
                   <h3>Git</h3>
-                  <p>Intermediate</p>
                 </div>
               </article>
             </div>
@@ -234,16 +241,16 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/calc.webp"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Calculator Application</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/SJ99677/Calculator-App'"
               >
                 Github
               </button>
@@ -251,55 +258,44 @@
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
               >
-                Live Demo
+                Live Demo Coming Soon
               </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
+                src="./assets/sp500.jpg"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">S&P500 Prediction Model</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/SJ99677/sp500-Prediction-Model'"
               >
                 Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
               </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
+                src="./assets/lamprey.webp"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Lamprey Population Dynamics Mathematical Model</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="window.open('./assets/Lamprey.pdf')"
+
               >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
+                Download Paper
               </button>
             </div>
           </div>
