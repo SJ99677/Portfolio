@@ -333,19 +333,19 @@ section{
   
   .article-container {
     display: flex;
-    text-align: initial;
     flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2.5rem;
-    justify-content: space-around;
-  }
-  
-  article {
+    gap: 2rem;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+article {
     display: flex;
-    width: 10rem;
-    justify-content: space-around;
+    align-items: center;
     gap: 0.5rem;
-  }
+    min-width: 7rem;  /* Set a minimum width */
+    flex: 0 0 auto;   /* Prevent flex items from growing/shrinking */
+}
   
   article .icon {
     cursor: default;
