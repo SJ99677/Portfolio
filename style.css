@@ -9,7 +9,8 @@
 }
 body{
     font-family: "Poppins", serif;
-    background-color: #f8f9fa;
+    /*background-color: #f8f9fa;*/
+    background-color: lightgray;
 }
 html{
     scroll-behavior: smooth;
