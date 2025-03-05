@@ -331,20 +331,19 @@ section{
     flex-direction: column;
   }
   
-  .article-container {
-    display: flex;
-    flex-wrap: wrap;
+  #experience .article-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    justify-content: flex-start;
+    justify-items: flex-start;
     padding: 1rem;
 }
 
-article {
+#experience article {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    min-width: 7rem;  /* Set a minimum width */
-    flex: 0 0 auto;   /* Prevent flex items from growing/shrinking */
+    width: 100%;
 }
   
   article .icon {
@@ -356,7 +355,14 @@ article {
 #projects {
     position: relative;
   }
-  
+#projects .article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
   .color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
